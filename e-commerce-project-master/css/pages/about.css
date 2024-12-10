@@ -1,0 +1,350 @@
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+.intro-section {
+    /*for our website te big image that comes up witth the welcome to emarald! etc,*/
+    position: relative;
+    height: 300px;
+    display: flex;
+    /*impo for te 2 seperate texts to be underneath eachother collumn style instead of 1 big line */
+padding: 5%;
+    margin: 0%;
+     background: url('https://c4.wallpaperflare.com/wallpaper/135/762/408/sony-vinyl-record-player-wallpaper-preview.jpg') no-repeat center center/cover;
+    /*our  background pic of the vinyl */
+     align-items: center;
+   
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.intro-section p {
+   
+   
+   justify-content: center;
+   margin: 0;
+   /*so its nor shifted left or right*/
+}
+.intro-section h1{
+   
+    font-size: 1.8em;
+    /*font size was originally small so changed it up*/
+   }
+    
+
+
+
+    
+    .welcome-message{
+
+        display: flex;
+/*needed the text to be collumn ish so all the text isnt just one big line*/
+        align-items: center;
+   
+        justify-content: center;
+        flex-direction: column;
+
+
+    color: #333;
+    text-align: center;
+    
+  
+
+margin-top: -265px;
+margin-left: 50px;
+/*it was a struggle getting it to line up right, took a lot of trial and error*/
+    flex: 300px; 
+    max-width: 700px; 
+    height: 220px; 
+    text-align: center; 
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /*jut the basic styling for the box effect*/
+    padding: 20px;
+
+
+
+
+    
+
+    }
+.welcome-message h2{
+    margin-top: 40px;
+    /* didnt want it direclty below so added some space*/
+
+}
+.welcome-message p {
+    max-width: 600px;
+    /*didnt want the space it ook up to be too big but ended up being alright*/
+    
+    margin: 20px auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.welcome-pic{
+
+    
+    background-image: url('https://media.istockphoto.com/id/2161048095/photo/welcome-text-on-speech-bubble.jpg?b=1&s=612x612&w=0&k=20&c=kAng3aQpMdv0Owvk-Ymx1RtauTAhURmRZVxpmqRCEQA=');
+    background-size: contain; 
+    /*it was actually hard finding this tag thing cause i was using object cover instead and i found out object
+    only wrks for <img> tag, not the actual background image*/
+    background-position: center;
+
+    background-repeat: no-repeat;
+    /*wierdly it triples the image if you dont use this */
+    margin-top: 60px;
+    /*wanted some space*/
+         border-radius: 10px; 
+         /*added curviness*/
+         margin-left: 810px;
+         /*trial and error lol*/
+         height: 265px;
+         width: 385px;
+         
+         
+         
+     
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-us {
+    text-align: center;
+    margin-top: 20px;
+
+   
+  
+}
+
+
+
+
+#mission {
+    position: relative;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240707/pngtree-vinyl-record-on-a-green-blue-background-image_15863920.jpg');
+    background-size: cover;
+    /*basically similar styling as the other ones*/
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: #fff;
+    text-align: center;
+    display: flex;
+    
+
+
+   
+    height: 300px;
+    width: auto;
+padding: 5%;
+    margin: 0%;
+}
+
+ 
+#mission p {
+
+    color: #f3f3f3;
+    
+    width:300px;
+    /*this made the text squished together so it didnt
+    take up the entire page*/
+    margin-left: 420px;
+    /*it was actually hard getting it to line up perfectly in the center of the circle*/
+    margin-top: 40px;
+
+}
+
+
+
+
+#mission h2{
+    color: #f3f3f3;
+   
+margin-left: 420px;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#values {
+    padding: 40px 20px; 
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#values h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    /*basic adding gaps and stuff*/
+    color: #183a24; 
+}
+.values-container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    gap: 30px; 
+    /*determines space between each value box thing*/
+    flex-wrap: wrap; 
+}
+.core-value {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /*similar styling like how i used for the other ones*/
+    flex: 300px; 
+    max-width: 300px; 
+   
+    
+    background-color: #fff; 
+    border-radius: 10px;
+    height: 300px; 
+    /*determins how big its going to be*/
+    padding: 20px;
+   
+}
+
+
+  
+
+.core-value img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+.core-value h4 {
+    font-size: 1.4em;
+    /*makes the value names prominant*/
+    color: #183a24; 
+    margin-bottom: 10px; 
+    /*adding gaps*/
+}
+
+.core-value p {
+    color: #555; 
+}
+
+
+
+
+
+.future-pic{
+
+    
+    background-image: url('https://cdn.dribbble.com/users/4895668/screenshots/17520463/media/bce594a4eceaf1997cd17167344272a6.gif');
+    background-size: cover; 
+    background-position: center;
+/*pretty much the same as ive done for the others*/
+    background-repeat: no-repeat;
+    margin-top: 30px;
+         border-radius: 50%; 
+         margin-left: 850px;
+         /*getting the right margin values*/
+         height: 240px;
+         width: 240px;
+         /*might make the image size a bit bigger later*/
+         margin-bottom: 65px;
+        
+         
+
+        
+
+}
+
+
+
+.future-text {
+    color: #333;
+    max-width: 60%;
+margin-left: 50px;
+margin-top: -290px;
+/*took a while getting it right but finally 
+managed to get the text on the same horizontal lvl as the pic*/
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+flex-direction: column;
+/*makes the text collum ish*/
+
+color: #333;
+
+
+
+flex: 300px; 
+max-width: 600px; 
+height:160;
+height: 200px; 
+
+background-color: #fff; 
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+padding: 20px;
+/*same styling as the rest*/
+margin-bottom: 40px;
+   
+
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
